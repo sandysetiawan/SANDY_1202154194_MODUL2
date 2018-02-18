@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SANDYSETIAWAN_1202154194</string>
+    <string name="Meja1">Meja 1</string>
+    <string name="Meja2">Meja 2</string>
+    <string name="Meja3">Meja 3</string>
+
+    <string-array name="PilihMeja">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+
+    </string-array>
+
+</resources>

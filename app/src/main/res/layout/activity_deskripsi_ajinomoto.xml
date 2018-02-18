@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sandysetiawan.sandysetiawan_1202154194_modul2.DeskripsiAjinomoto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/foto22"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/ajinomoto"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/foto22"
+            android:layout_centerHorizontal="true"
+            android:text="Ajinomoto"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="17dp"
+            android:text="natrium 12 %, glutamate 78 % dan air 10 %" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="17dp"
+            android:text="Komposisi :"
+            android:id="@+id/textView2" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

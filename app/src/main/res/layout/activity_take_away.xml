@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sandysetiawan.sandysetiawan_1202154194_modul2.TakeAway">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Identitas Pemesanan :"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+<EditText
+    android:id="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="Name"/>
+
+    <EditText
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Phone"/>
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="Alamat"/>
+
+    <EditText
+        android:id="@+id/catatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Catatan"/>
+
+    <Button
+        android:id="@+id/pesan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Pilih Pesanan"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
